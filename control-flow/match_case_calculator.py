@@ -8,18 +8,18 @@ operation = input("Choose the operation (+, -, *, /): ")
 match operation:
     case "+":
         result = num1 + num2
+        print(f"The result is {result}.")
         
     case '-':
         result = num1 - num2
-    
+        print(f"The result is {result}.")
     case "*":
         result = num1 * num2
-        
+        print(f"The result is {result}.")
     case "/":
         if num2 != 0:
             result = num1/num2
+            print(f"The result is {result}.")
         else:
-            result = "Math error!"
-
-print("The result is", result) 
+            print("Cannot divide by zero.")
             
