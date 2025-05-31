@@ -1,5 +1,5 @@
 #Get the input from the user
-length = int(input("Enter the size of the pattern:"))
+length = int(input("Enter the size of the pattern: "))
 
 a = 1
 while a <= length:
