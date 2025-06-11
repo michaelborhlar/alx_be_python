@@ -1,5 +1,5 @@
 #Get weather details from the user
-weather = str(input("What's the weather like today? (sunny/rainy/cold): "))
+weather = str(input("What's the weather like today? (sunny/rainy/cold): su"))
 
 #Set the conditions for the weather and the result for each conditions
 if weather == "sunny":
